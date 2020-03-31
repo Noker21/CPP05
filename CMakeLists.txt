@@ -9,5 +9,5 @@ include_directories( ${GTKMM_INCLUDE_DIRS}  )
 
 # programme principal
 add_executable( Res src/main.cpp 
-src/FigureGeometrique.cpp src/Ligne.cpp src/PolygoneRegulier.cpp src/ViewerFigures.cpp)
+src/FigureGeometrique.cpp src/Ligne.cpp src/PolygoneRegulier.cpp src/ViewerFigures.cpp src/ZoneDessin.cpp)
 target_link_libraries( Res ${GTKMM_LIBRARIES})
