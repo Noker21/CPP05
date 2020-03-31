@@ -26,13 +26,6 @@ int main(int argc, char ** argv){
 			}
 	*/
 	ViewerFigures VF(argc,argv);
-
-	Gtk::Label label(" Hello world ! ");
-	VF._window.set_title("AAAA SMITEEK !!!!");
-	VF._window.add(label);
-	VF._window.set_default_size(640,480);
-	VF._window.show_all();
-
 	VF.run();
 
 
